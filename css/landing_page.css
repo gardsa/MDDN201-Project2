@@ -13,16 +13,14 @@
   padding: 10px 20px;
 }
 
-img {
+#battery_icon {
   float: left;
   padding-right: 10px;
 }
 
-h3 {
-  line-height: 40px;
-}
-
-hr {
-  border-color: #e5e5e5;
-  margin: 0;
+#fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
 }
