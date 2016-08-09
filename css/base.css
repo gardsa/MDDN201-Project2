@@ -1,0 +1,76 @@
+html {
+  background-color: #757575;
+}
+
+body {
+  font-size: 100%;
+  margin: 10px 0px;
+}
+
+h1, h2 {
+  font-family: "Futura-CondensedMedium", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+
+h3, p {
+  font-family: "Gill Sans", sans-serif;
+  color: #fff;
+  font-weight: 100;
+  margin:0;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 1.875em;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1em;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1em;
+}
+
+nav {
+  background-color: #757575;
+  padding: 10px 20px;
+}
+
+.personal_title, .local_title, .global_title {
+  background-color: #353535;
+  margin: 1px 0px 0px 0px;
+  padding: 10px 20px;
+}
+
+.personal_banks, .local_banks, .global_banks {
+  background-color: #757575;
+  margin: 1px 0px 0px 0px;
+}
+
+.bank {
+  padding: 10px 20px;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+h3 {
+  line-height: 40px;
+}
+
+hr {
+  border-color: #e5e5e5;
+  margin: 0;
+}
