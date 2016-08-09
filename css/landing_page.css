@@ -1,0 +1,28 @@
+.personal_title, .local_title, .global_title {
+  background-color: #353535;
+  margin: 1px 0px 0px 0px;
+  padding: 10px 20px;
+}
+
+.personal_banks, .local_banks, .global_banks {
+  background-color: #757575;
+  margin: 1px 0px 0px 0px;
+}
+
+.bank {
+  padding: 10px 20px;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+
+h3 {
+  line-height: 40px;
+}
+
+hr {
+  border-color: #e5e5e5;
+  margin: 0;
+}

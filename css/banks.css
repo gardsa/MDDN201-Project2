@@ -1,3 +1,8 @@
 .battery {
   background-color: #353535;
 }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
