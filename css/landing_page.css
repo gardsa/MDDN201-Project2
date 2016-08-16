@@ -1,7 +1,8 @@
 .personal_title, .local_title, .global_title {
   background-color: #353535;
-  margin: 1px 0px 0px 0px;
+  margin: 0;
   padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .personal_banks, .local_banks, .global_banks {
@@ -11,6 +12,7 @@
 
 .bank {
   padding: 10px 20px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 #battery_icon {
@@ -23,4 +25,8 @@
   bottom: 0px;
   right: 0px;
   padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
 }
