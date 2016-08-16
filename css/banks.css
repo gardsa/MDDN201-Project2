@@ -1,5 +1,6 @@
 .battery {
   background-color: #353535;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 #battery_icon {
@@ -30,7 +31,6 @@ h2 {
 .bank_info {
   width: 70%;
   margin: 0 auto;
-  padding: 10px;
 }
 
 .pull_left1, .pull_right1 {
@@ -41,6 +41,7 @@ h2 {
 .info_section {
   margin: 0 auto;
   padding: 20px 0px;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .pull_left1 {
