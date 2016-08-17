@@ -15,16 +15,19 @@
   text-align: center;
 }
 
-h2, h3 {
+h5, h6 {
   font-family: "Gill Sans", sans-serif;
   font-weight: 100;
   font-size: 1.17em;
   line-height: 1em;
+  color: #fff;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
 
-h2 {
+
+
+h5 {
   font-weight: normal;
 }
 
