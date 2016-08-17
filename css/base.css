@@ -66,7 +66,7 @@ hr {
   padding: 5px 15px 5px 0px
 }
 
-/* Slide Out Menu CSS retrieved from http://alijafarian.com/jquery-horizontal-slideout-menu/ */
+/* retrieved and modified from http://alijafarian.com/jquery-horizontal-slideout-menu/ */
 
 .slideout-menu {
 	position: fixed;
@@ -114,15 +114,11 @@ hr {
 	text-decoration: none;
 }
 
-/* Slide Out Menu CSS */
+/* --- */
 
 .user_info {
   padding: 10px;
   background-color: #353535;
-}
-
-.menu {
-
 }
 
 .container_opacity {

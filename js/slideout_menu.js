@@ -12,13 +12,13 @@ $(document).ready(function () {
     	// slide menu
     	if (slideoutMenu.hasClass("open")) {
 	    	slideoutMenu.animate({
-		    	left: "0px"
+		    	left: "-1px"
 	    	});
         pageContent.toggleClass("container_opacity");
     	} else {
 	    	slideoutMenu.animate({
 		    	left: -slideoutMenuWidth
-	    	}, 250);
+	    	}, 251);
         pageContent.toggleClass("container_opacity");
     	}
     });
