@@ -1,6 +1,6 @@
 .battery {
   background-color: #353535;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 #battery_icon {
@@ -44,7 +44,7 @@ h5 {
 .info_section {
   margin: 0 auto;
   padding: 20px 0px;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 .pull_left1 {
