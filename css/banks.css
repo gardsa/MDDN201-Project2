@@ -1,6 +1,5 @@
 .battery {
   background-color: #353535;
-  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 #battery_icon {
@@ -55,4 +54,10 @@ h5 {
 .pull_right1 {
   text-align: left;
   padding-left: 2.5%;
+}
+
+@media only screen and (min-width: 768px) {
+  .battery {
+    border-radius: 15px 15px 0px 0px;
+  }
 }
