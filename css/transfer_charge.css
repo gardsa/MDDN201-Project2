@@ -38,7 +38,7 @@ select {
 }
 
 .details {
-  text-align: left;
+  padding-top: 20px;
   width: 80%;
   margin: 0 auto;
 }
@@ -63,10 +63,10 @@ input {
   border: solid 2px #353535;
 }
 
-.date, .amount {
-  width: 49%;
-}
-
-.transfer {
+.button {
+  padding: 7px 20px 10px 20px;
+  background-color: #84c441;
   color: #fff;
+  border: solid 2px #fff;
+  border-radius: 15px;
 }
