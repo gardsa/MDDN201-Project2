@@ -4,7 +4,7 @@ html {
 
 body {
   font-size: 100%;
-  margin: 10px 0px;
+  margin: 0px;
 }
 
 h1, h2 {
@@ -48,8 +48,8 @@ p {
 
 nav {
   background-color: #757575;
-  padding: 10px 20px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 hr {
@@ -104,7 +104,7 @@ hr {
 	border-top: 1px solid #e5e5e5;
 }
 .slideout-menu ul li {
-	border-bottom: 1px solid #e5e5e5;
+	/*border-bottom: 1px solid #e5e5e5;*/
   padding: 10px 20px;
 }
 .slideout-menu ul li a {
@@ -129,7 +129,7 @@ hr {
   background-color: #353535;
   margin: 0;
   padding: 10px 20px;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 .items {
@@ -139,9 +139,13 @@ hr {
 
 .item {
   padding: 10px 20px;
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
 }
 
 a:link {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+
 }
