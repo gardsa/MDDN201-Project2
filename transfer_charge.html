@@ -35,9 +35,35 @@
     </nav>
 
     <div class="content">
-      <h2 class="title"></h2>
-      <div class="items">
-        <div class="item">
+      <br />
+      <form>
+        <select class="select-border" name="transfer_from">
+          <option value="everyday">Everyday</option>
+          <option value="middle_east_trip">Middle East Trip</option>
+          <option value="backup">Backup</option>
+          <option value="vic_uni">Victoria University</option>
+          <option value="tourist_centre">Tourist Center</option>
+          <option value="backup">Energise</option>
+          <option value="backup">PlugFree</option>
+          <option value="backup">Charge Asia</option>
+        </select>
+        <div class="arrow">
+          <img class="arrow_right" src="img/transfer_arrow_right.png"></img>
+          <img class="arrow_down" src="img/transfer_arrow_down.png"></img>
+        </div>
+        <select class="select-border" name="transfer_to">
+          <option value="everyday">Everyday</option>
+          <option value="middle_east_trip">Middle East Trip</option>
+          <option value="backup">Backup</option>
+      </select>
+      <div class="details">
+        <br />
+        <h3>Details:</h3>
+        <input class="input-border amount" type="text" name="amount" placeholder="Amount"></input>
+        <input class="input-border date" type="date" name="date" placeholder="Date"></input>
+        </form>
+        <div class="transfer">
+          <a href="charge_banks.html"><h3>Transfer</h3></a>
         </div>
       </div>
     </div>

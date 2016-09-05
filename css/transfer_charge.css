@@ -1,0 +1,72 @@
+form {
+  text-align: center;
+}
+
+select {
+  padding: 10px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  width: 80%;
+  height: 42px;
+  border-radius: 15px;
+}
+
+.select-border {
+  padding: 10px;
+  background-color: #353535;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 15px;
+  transition: border 0.3s;
+}
+.select-border:focus,
+.select-border.focus {
+  border: solid 2px #353535;
+}
+
+.arrow {
+  padding: 10px;
+}
+
+.arrow_right {
+  width: 0px;
+}
+
+.arrow_down {
+  width: 50px;
+}
+
+.details {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 10px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.input-border {
+  padding: 10px;
+  background-color: #353535;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 15px;
+  transition: border 0.3s;
+}
+.input-border:focus,
+.input-border.focus {
+  border: solid 2px #353535;
+}
+
+.date, .amount {
+  width: 49%;
+}
+
+.transfer {
+  color: #fff;
+}
