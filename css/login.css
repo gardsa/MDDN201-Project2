@@ -4,16 +4,16 @@
 
 .cc_icon {
   width: 150px;
-  padding: 75px;
+  padding: 50px;
 }
 
 .details {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-.login {
+.login, .signup_button {
   text-align: center;
   color: #fff;
 }
@@ -49,3 +49,34 @@ input {
   border: solid 2px #fff;
   border-radius: 15px;
 }
+
+.new_user, .cancel {
+  text-align: center;
+  padding: 10px;
+}
+
+.signup_content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signup {
+  display: inline;
+}
+
+.hide {
+  display: none;
+}
+
+/*@media only screen and (min-width: 700px) {
+  .signup_content {
+    width: 55%;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .signup_content {
+    width: 30%;
+  }
+}*/

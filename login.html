@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="css/login.css" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
   <script src="js/slideout_menu.js" type="text/javascript"></script>
+  <script src="js/hide_show_signup.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -14,14 +15,36 @@
     <img class="cc_icon" src="img/cc_icon_text.png">
   </div>
 
-  <div class="details">
+  <div class="details" id="details">
     <form>
       <input class="input-border" type="text" name="username" placeholder="Username"></input>
       <input class="input-border" type="password" name="password" placeholder="Password"></input>
     </form>
+
+    <div class="login">
+      <a href="charge_banks.html"><h3 class="button login">Login</h3></a>
+    </div>
+
+    <div class="new_user">
+        <h4 style="font-size:0.9em">New user? Sign up <a href="#signup" id="show" style="color:#353535; font-weight:400">here</a></h4>
+    </div>
   </div>
 
-  <div class="login">
-    <a href="charge_banks.html"><h3 class="button login">Login</h3></a>
+  <div id="signup" class="hide">
+    <div class="signup_content">
+      <form>
+          <input class="input-border signup" type="text" name="fullname" placeholder="Full Name"></input>
+          <input class="input-border signup" type="text" name="email" placeholder="Email"></input>
+          <br/>
+          <input class="input-border signup" type="text" name="username" placeholder="Username"></input>
+          <input class="input-border signup" type="text" name="password" placeholder="Password"></input>
+      </form>
+      <div class="signup_button">
+        <a href="charge_banks.html"><h3 class="button login">Signup</h3></a>
+      </div>
+      <div class="cancel">
+        <a href="#" id="hide"><h4 style="font-size:0.9em; padding-top: 5px">Cancel</h4></a>
+      </div>
+    </div>
   </div>
 </body>
