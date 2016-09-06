@@ -69,14 +69,14 @@ input {
   display: none;
 }
 
-/*@media only screen and (min-width: 700px) {
-  .signup_content {
-    width: 55%;
+@media only screen and (min-width: 768px) {
+  .cc_icon {
+    width: 200px;
   }
 }
 
 @media only screen and (min-width: 1224px) {
-  .signup_content {
-    width: 30%;
+  .cc_icon {
+    width: 250px;
   }
-}*/
+}
